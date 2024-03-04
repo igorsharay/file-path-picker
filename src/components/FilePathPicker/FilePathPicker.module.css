@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  min-width: 700px;
+  height: 400px;
+  border: 1px solid #b7b7b7;
+  border-radius: 8px;
+  overflow: auto;
+  background: #fff;
+}
+
+.nodeColumn {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  border-right: 1px solid #b7b7b7;
+  width: 240px;
+  gap: 8px;
+}
+
+.nodeTitle {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  background: #eee;
+  padding: 4px 6px;
+}
+
+.nodeTitle svg {
+  width: 20px;
+}
+
+.nodeContent {
+  display: flex;
+  flex-direction: column;
+  padding: 0 6px;
+  gap: 4px;
+}

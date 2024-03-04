@@ -1,0 +1,20 @@
+.nodeItem {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  cursor: pointer;
+  padding: 2px 4px;
+}
+
+.nodeItem svg {
+  width: 20px;
+}
+
+.nodeItem:not(.active):hover,
+.file.active {
+  background: #dceaf0;
+}
+
+.active {
+  cursor: default;
+}
